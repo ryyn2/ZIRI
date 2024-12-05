@@ -1,0 +1,176 @@
+/* General Styles */
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #FFFEF1;
+    color: #333;
+}
+
+
+/* Header */
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFEF1;
+    color: #2A286B;
+}
+
+.header-logo img {
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.header-user {
+    display: flex;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info p {
+    font-weight: 500;
+    margin: 0;
+}
+
+.user-info span {
+    font-size: 12px;
+    color: #ccc;
+}
+
+
+/* Profile Content */
+
+.profile-content {
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Banner */
+
+.profile-banner img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+/* User Info Section */
+
+.user-info-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 70px;
+}
+
+.user-details {
+    margin-right: 60px;
+}
+
+.user-details h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.user-details p {
+    margin: 5px 0;
+    margin-right: 60px;
+}
+
+.cta button {
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #2d2a72;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.cta button:hover {
+    background-color: #1f1c5a;
+}
+
+
+/* Details Section */
+
+.details-section {
+    display: flex;
+    padding: 20px;
+}
+
+.about-section {
+    background-color: white;
+    flex: 1;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.about-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.about-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-section li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.projects-section {
+    background-color: white;
+    flex: 2;
+}
+
+.projects-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.project-gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.project-gallery img {
+    width: 900%;
+    max-width: 900px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
